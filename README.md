@@ -30,12 +30,12 @@ Algorithm
 ```
 import numpy as np    
 import matplotlib.pyplot as plt    
-Am=4.4    
-fm=364   
-Ac=8.8    
-fc=3640   
-fs=36400    
-b=5.7     
+Am=5.5    
+fm=477   
+Ac=11    
+fc=4770   
+fs=47700    
+b=3.99    
 t=np.arange(0,2/fm,1/fs)    
 m = np.cos(2 * np.pi * fm * t)    
 c=np.cos(2*np.pi*fc*t)    
@@ -53,17 +53,18 @@ plt.plot(t,s)
 ```   
 
 Output Waveform    
-<img width="676" height="514" alt="image" src="https://github.com/user-attachments/assets/18809402-3e13-47ff-99d3-7887b7895675" />
 
+
+<img width="702" height="513" alt="Screenshot 2025-12-03 144036" src="https://github.com/user-attachments/assets/f81d9025-3b54-4be0-8ec6-5244a5a6c168" />
 
 Tabular Column
 
-![WhatsApp Image 2025-11-29 at 08 24 28_19479784](https://github.com/user-attachments/assets/ca370fdb-2c1a-4505-80a8-02f1f76eae80)
+![WhatsApp Image 2025-12-03 at 14 39 00_e4a28d00](https://github.com/user-attachments/assets/85461fa9-c21e-4b52-8afc-54913e55e98c)
 
 
 Calculation
 
-![WhatsApp Image 2025-11-29 at 08 42 15_7cb6ea13](https://github.com/user-attachments/assets/27710524-dbe5-4970-ad13-0c56947e9739)
+![WhatsApp Image 2025-12-03 at 14 39 11_e0c86325](https://github.com/user-attachments/assets/836a8732-32ad-4edc-a63a-672cfa4d67ad)
 
 
 
